@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dartboard"
+    tools:context="com.example.android.playindarts.ScoreTracker">
+
+    <LinearLayout
+        android:id="@+id/TrackerWindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/Player1"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="16dp"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="56sp" />
+
+            <LinearLayout style="@style/ButtonAndTextLayout">
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player1_20"
+                    android:text="20" />
+
+                <TextView
+                    android:id="@+id/player1_20"
+                    style="@style/HolderXXX" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ButtonAndTextLayout">
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player1_19"
+                    android:text="19" />
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player1_19" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ButtonAndTextLayout">
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player1_18"
+                    android:text="18" />
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player1_18" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ButtonAndTextLayout">
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player1_17"
+                    android:text="17" />
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player1_17" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ButtonAndTextLayout">
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player1_16"
+                    android:text="16" />
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player1_16" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ButtonAndTextLayout">
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player1_15"
+                    android:text="15" />
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player1_15" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/ButtonAndTextLayout">
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player1_bull"
+                    android:text="@string/BullseyeButton" />
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player1_bull" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/Player2"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="16dp"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="56sp" />
+
+            <LinearLayout style="@style/RightButtonAndTextLayout">
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player2_20" />
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player2_20"
+                    android:text="20" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/RightButtonAndTextLayout">
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player2_19" />
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player2_19"
+                    android:text="19" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/RightButtonAndTextLayout">
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player2_18" />
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player2_18"
+                    android:text="18" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/RightButtonAndTextLayout">
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player2_17" />
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player2_17"
+                    android:text="17" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/RightButtonAndTextLayout">
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player2_16" />
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player2_16"
+                    android:text="16" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/RightButtonAndTextLayout">
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player2_15" />
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player2_15"
+                    android:text="15" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/RightButtonAndTextLayout">
+
+                <TextView
+                    style="@style/HolderXXX"
+                    android:id="@+id/player2_bull" />
+
+                <Button
+                    style="@style/TrackerButtons"
+                    android:onClick="player2_bull"
+                    android:text="@string/BullseyeButton" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TrackerWindow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:padding="10dp"
+        android:background="#cc228b22"
+        android:onClick="resetScores"
+        android:text="@string/ResetButton" />
+
+</RelativeLayout>
+
+

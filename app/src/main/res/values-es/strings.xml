@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rastreador de puntuación de cricket</string>
+    <string name="title">" Vamos a jugar al cricket"</string>
+    <string name="subtitle">El de los dardos...\nNo el que tiene un bate...</string>
+    <string name="TheRulesButton">LAS NORMAS</string>
+    <string name="PlayGameButtom">JUGAR UN JUEGO</string>
+    <string name="TheRulesTitle">Reglas del Juego</string>
+    <string name="TheRulesDescription">El objetivo del juego es cerrar 15-20 y lanzar un tiro al blanco, y terminar el juego con más puntos.  \n\nPara cerrar una sección, tiene que golpearla 3 veces. El anillo externo cuenta como doble, el anillo interno cuenta como triple. El Bullseye externo cuenta como un solo golpe, y el interno es un doble.  \n\nUna vez que hayas cerrado una sección, los puntos adicionales se contarán como puntos (es decir, llegar a 15 te da 15 puntos, 20 serían 20 puntos, el bullseye exterior 25 y el interior 50).  \n\nUna sección que ha sido cerrada por ambos jugadores no puede ser puntuada.</string>
+    <string name="BullseyeButton">BULL</string>
+    <string name="ResetButton">REINICIALIZAR</string>
+    <string name="Player1">Jugador 1</string>
+    <string name="Player2">Jugador 2</string>
+</resources>

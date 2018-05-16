@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">CRICKET SCORE TRACKER</string>
+    <string name="title">Let\'s Play Cricket</string>
+    <string name="subtitle">The one with darts...\nNot the one with a bat...</string>
+    <string name="TheRulesButton">THE RULES</string>
+    <string name="PlayGameButtom">PLAY GAME</string>
+    <string name="TheRulesTitle">Rules of the Game</string>
+    <string name="TheRulesDescription">The goal of the game is to close out 15-20 and bullseye, and end the game with more points. \n\n To close out a section, you have to hit it 3 times. The outer ring counts as double, inner ring counts as triple. The outer Bullseye counts as a single hit, and the inner is a double.  \n\nOnce you\'ve closed out a section, any additional hits count as points (i.e. hitting 15 gives you 15 points, 20 would be 20 points, outer bullseye 25 and inner 50.)  \n\nA section that\'s been closed out by both players may not be scored on.</string>
+    <string name="BullseyeButton">BULL</string>
+    <string name="ResetButton">RESET</string>
+    <string name="Player1">Player 1</string>
+    <string name="Player2">Player 2</string>
 </resources>
